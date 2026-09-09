@@ -1,0 +1,1 @@
+{"description":"Uptime + e2e monitor for YEAHDOGS websites","devDependencies":{"playwright":"*"},"name":"watchtower","private":true,"scripts":{"check:http":"node checks/http-check.mjs","e2e:report":"node checks/e2e-report.mjs e2e-report.json","test":"node --test \"checks/unit/*.mjs\"","test:e2e":"playwright test"},"type":"module","version":"1.0.0"}

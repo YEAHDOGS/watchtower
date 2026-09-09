@@ -1,0 +1,25 @@
+# WATCHTOWER overrides — NOT the source of truth.
+# The YEAHDOGS org API decides WHAT gets monitored (every repo with GitHub
+# Pages enabled, discovered fresh on each run). This file only customizes HOW:
+# per-repo content checks, e2e selectors, friendly names, or skip flags.
+# Repos not listed here are monitored with defaults:
+#   HTTP 200 + serves HTML + e2e "body" visible.
+# Allowed keys per repo: name, expect_status, expect_content, e2e_selector, skip.
+overrides:
+  paper:
+    expect_content: PAPER — Fake money
+    e2e_selector: .paper-banner
+  dashboard:
+    expect_content: DOGS Mission Control
+    e2e_selector: h1
+  icecream:
+    expect_content: The Scoop
+    e2e_selector: "#app"
+  wax:
+    expect_content: Wax — don't miss
+    e2e_selector: "#root"
+  divorce:
+    expect_content: Uncontested Divorce
+    e2e_selector: "#app"
+  news:
+    expect_content: DOGS NEWS

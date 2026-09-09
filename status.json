@@ -1,0 +1,61 @@
+{
+  "generatedAt": "2026-09-09T19:39:36.427Z",
+  "sites": [
+    {
+      "name": "dashboard",
+      "url": "https://yeahdogs.github.io/dashboard/",
+      "repo": "dashboard",
+      "status": "up",
+      "since": "2026-09-09T19:39:36.427Z",
+      "lastCheck": "2026-09-09T19:39:36.427Z",
+      "failing": []
+    },
+    {
+      "name": "divorce",
+      "url": "https://yeahdogs.github.io/divorce/",
+      "repo": "divorce",
+      "status": "up",
+      "since": "2026-09-09T19:39:36.427Z",
+      "lastCheck": "2026-09-09T19:39:36.427Z",
+      "failing": []
+    },
+    {
+      "name": "icecream",
+      "url": "https://yeahdogs.github.io/icecream/",
+      "repo": "icecream",
+      "status": "up",
+      "since": "2026-09-09T19:39:36.427Z",
+      "lastCheck": "2026-09-09T19:39:36.427Z",
+      "failing": []
+    },
+    {
+      "name": "news",
+      "url": "https://news.wearedogs.net/",
+      "repo": "news",
+      "status": "down",
+      "since": "2026-09-09T19:39:36.427Z",
+      "lastCheck": "2026-09-09T19:39:36.427Z",
+      "failing": [
+        "http: fetch failed after retry: fetch failed"
+      ]
+    },
+    {
+      "name": "paper",
+      "url": "https://yeahdogs.github.io/paper/",
+      "repo": "paper",
+      "status": "up",
+      "since": "2026-09-09T19:39:36.427Z",
+      "lastCheck": "2026-09-09T19:39:36.427Z",
+      "failing": []
+    },
+    {
+      "name": "wax",
+      "url": "https://yeahdogs.github.io/wax/",
+      "repo": "wax",
+      "status": "up",
+      "since": "2026-09-09T19:39:36.427Z",
+      "lastCheck": "2026-09-09T19:39:36.427Z",
+      "failing": []
+    }
+  ]
+}

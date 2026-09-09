@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Watchtower — YEAHDOGS site status</title>
+<style>
+  :root { --bg: #0a0a0b; --card: #121214; --green: #22ff88; --red: #ff4444; --gold: #d4a017; --text: #e8e8e8; --dim: #888; }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { background: var(--bg); color: var(--text); font-family: system-ui, -apple-system, sans-serif; padding: 24px 16px; }
+  header { max-width: 900px; margin: 0 auto 20px; }
+  h1 { font-size: 1.6rem; letter-spacing: 1px; }
+  h1 .dot { color: var(--gold); }
+  p.sub { color: var(--dim); font-size: 0.9rem; margin-top: 6px; }
+  p.sub a { color: var(--gold); }
+  #grid { max-width: 900px; margin: 0 auto; display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 12px; }
+  .card { background: var(--card); border: 1px solid #222; border-radius: 10px; padding: 14px 16px; }
+  .card .row { display: flex; align-items: center; gap: 10px; }
+  .lamp { width: 12px; height: 12px; border-radius: 50%; flex: none; }
+  .lamp.up { background: var(--green); box-shadow: 0 0 8px var(--green); }
+  .lamp.down { background: var(--red); box-shadow: 0 0 8px var(--red); }
+  .lamp.unknown { background: var(--dim); }
+  .name { font-weight: 700; font-size: 1.05rem; }
+  .url { margin-top: 8px; font-size: 0.85rem; word-break: break-all; }
+  .url a { color: #7db8ff; text-decoration: none; }
+  .meta { margin-top: 8px; font-size: 0.78rem; color: var(--dim); }
+  .failing { margin-top: 8px; font-size: 0.8rem; color: var(--red); word-break: break-word; }
+  footer { max-width: 900px; margin: 24px auto 0; color: var(--dim); font-size: 0.8rem; }
+</style>
+</head>
+<body>
+<header>
+  <h1><span class="dot">◉</span> WATCHTOWER</h1>
+  <p class="sub">Live status of every YEAHDOGS website. Auto-discovered from the org every run — coverage is everything with Pages enabled. Alerts: <a href="https://github.com/YEAHDOGS/watchtower/issues?q=label%3Asite-down">open site-down issues</a>.</p>
+  <p class="sub" id="generated"></p>
+</header>
+<div id="grid"></div>
+<footer>Watchtower checks HTTP status + content every 30 min and runs a full Playwright e2e daily. Issues open only on UP→DOWN transitions and auto-close on recovery.</footer>
+<script>
+fetch("status.json").then(r => r.json()).then(data => {
+  document.getElementById("generated").textContent =
+    "Updated " + new Date(data.generatedAt).toLocaleString() + " · " + data.sites.length + " site(s)";
+  const grid = document.getElementById("grid");
+  data.sites.forEach(s => {
+    const card = document.createElement("div");
+    card.className = "card";
+    const lamp = s.status === "up" ? "up" : s.status === "down" ? "down" : "unknown";
+    card.innerHTML =
+      '<div class="row"><span class="lamp ' + lamp + '"></span><span class="name"></span></div>' +
+      '<div class="url"><a></a></div>' +
+      '<div class="meta"></div>' +
+      (s.failing.length ? '<div class="failing"></div>' : '');
+    card.querySelector(".name").textContent = s.name + (s.status === "up" ? " — UP" : s.status === "down" ? " — DOWN" : "");
+    const a = card.querySelector(".url a");
+    a.href = s.url; a.textContent = s.url;
+    card.querySelector(".meta").textContent =
+      "repo " + s.repo + " · since " + (s.since ? new Date(s.since).toLocaleString() : "—");
+    if (s.failing.length) card.querySelector(".failing").textContent = s.failing.join(" | ");
+    grid.appendChild(card);
+  });
+}).catch(() => {
+  document.getElementById("grid").innerHTML = "<p>Could not load status.json.</p>";
+});
+</script>
+</body>
+</html>
