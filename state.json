@@ -2,12 +2,12 @@
   "dashboard": {
     "status": "up",
     "since": "2026-09-09T19:39:36.427Z",
-    "lastCheck": "2026-09-09T19:39:36.427Z",
+    "lastCheck": "2026-09-09T19:42:13.799Z",
     "checks": {
       "http": {
         "ok": true,
         "detail": "HTTP 200, content ok",
-        "at": "2026-09-09T19:39:36.427Z"
+        "at": "2026-09-09T19:42:13.799Z"
       }
     },
     "failing": []
@@ -15,12 +15,12 @@
   "divorce": {
     "status": "up",
     "since": "2026-09-09T19:39:36.427Z",
-    "lastCheck": "2026-09-09T19:39:36.427Z",
+    "lastCheck": "2026-09-09T19:42:13.799Z",
     "checks": {
       "http": {
         "ok": true,
         "detail": "HTTP 200, content ok",
-        "at": "2026-09-09T19:39:36.427Z"
+        "at": "2026-09-09T19:42:13.799Z"
       }
     },
     "failing": []
@@ -28,25 +28,43 @@
   "icecream": {
     "status": "up",
     "since": "2026-09-09T19:39:36.427Z",
-    "lastCheck": "2026-09-09T19:39:36.427Z",
+    "lastCheck": "2026-09-09T19:42:13.799Z",
     "checks": {
       "http": {
         "ok": true,
         "detail": "HTTP 200, content ok",
-        "at": "2026-09-09T19:39:36.427Z"
+        "at": "2026-09-09T19:42:13.799Z"
       }
     },
     "failing": []
   },
+  "mirror": {
+    "status": "down",
+    "since": "2026-09-09T19:42:13.799Z",
+    "lastCheck": "2026-09-09T19:42:13.799Z",
+    "checks": {
+      "http": {
+        "ok": false,
+        "detail": "HTTP 404, expected 200",
+        "at": "2026-09-09T19:42:13.799Z"
+      }
+    },
+    "failing": [
+      {
+        "type": "http",
+        "detail": "HTTP 404, expected 200"
+      }
+    ]
+  },
   "news": {
     "status": "down",
     "since": "2026-09-09T19:39:36.427Z",
-    "lastCheck": "2026-09-09T19:39:36.427Z",
+    "lastCheck": "2026-09-09T19:42:13.799Z",
     "checks": {
       "http": {
         "ok": false,
         "detail": "fetch failed after retry: fetch failed",
-        "at": "2026-09-09T19:39:36.427Z"
+        "at": "2026-09-09T19:42:13.799Z"
       }
     },
     "failing": [
@@ -59,12 +77,25 @@
   "paper": {
     "status": "up",
     "since": "2026-09-09T19:39:36.427Z",
-    "lastCheck": "2026-09-09T19:39:36.427Z",
+    "lastCheck": "2026-09-09T19:42:13.799Z",
     "checks": {
       "http": {
         "ok": true,
         "detail": "HTTP 200, content ok",
-        "at": "2026-09-09T19:39:36.427Z"
+        "at": "2026-09-09T19:42:13.799Z"
+      }
+    },
+    "failing": []
+  },
+  "watchtower": {
+    "status": "up",
+    "since": "2026-09-09T19:42:13.799Z",
+    "lastCheck": "2026-09-09T19:42:13.799Z",
+    "checks": {
+      "http": {
+        "ok": true,
+        "detail": "HTTP 200, content ok",
+        "at": "2026-09-09T19:42:13.799Z"
       }
     },
     "failing": []
@@ -72,12 +103,12 @@
   "wax": {
     "status": "up",
     "since": "2026-09-09T19:39:36.427Z",
-    "lastCheck": "2026-09-09T19:39:36.427Z",
+    "lastCheck": "2026-09-09T19:42:13.799Z",
     "checks": {
       "http": {
         "ok": true,
         "detail": "HTTP 200, content ok",
-        "at": "2026-09-09T19:39:36.427Z"
+        "at": "2026-09-09T19:42:13.799Z"
       }
     },
     "failing": []
