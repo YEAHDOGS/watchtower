@@ -19,7 +19,7 @@ Repo deleted or Pages disabled? It drops off the dashboard automatically.
 - **State** (`state.json`): per-site up/down, derived from per-check slots. A
   site is DOWN if any check that has run is failing. A check that hasn't run
   yet never fails a site.
-- **Dashboard**: merged into [DOGS Mission Control](https://yeahdogs.github.io/dashboard/),
+- **Dashboard**: now lives at [Watchtower](https://yeahdogs.github.io/tower/),
   which renders every YEAHDOGS repo with its live Watchtower status.
   `status.json` is still published here every run (that is the feed the
   dashboard consumes); this repo's own Pages site now just redirects to the
