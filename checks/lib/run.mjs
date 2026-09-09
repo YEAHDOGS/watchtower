@@ -18,6 +18,9 @@ export function buildStatusJson(sites, state, nowIso) {
     generatedAt: nowIso,
     sites: sites.map((s) => {
       const st = state[s.name] || { status: "unknown", since: null, lastCheck: null, failing: [] };
+      const httpMs = st.checks && st.checks.http && typeof st.checks.http.ms === "number"
+        ? st.checks.http.ms
+        : null;
       return {
         name: s.name,
         url: s.url,
@@ -25,6 +28,7 @@ export function buildStatusJson(sites, state, nowIso) {
         status: st.status,
         since: st.since,
         lastCheck: st.lastCheck,
+        responseMs: httpMs,
         failing: (st.failing || []).map((f) => `${f.type}: ${f.detail}`),
       };
     }),
