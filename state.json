@@ -1,0 +1,85 @@
+{
+  "dashboard": {
+    "status": "up",
+    "since": "2026-09-09T19:39:36.427Z",
+    "lastCheck": "2026-09-09T19:39:36.427Z",
+    "checks": {
+      "http": {
+        "ok": true,
+        "detail": "HTTP 200, content ok",
+        "at": "2026-09-09T19:39:36.427Z"
+      }
+    },
+    "failing": []
+  },
+  "divorce": {
+    "status": "up",
+    "since": "2026-09-09T19:39:36.427Z",
+    "lastCheck": "2026-09-09T19:39:36.427Z",
+    "checks": {
+      "http": {
+        "ok": true,
+        "detail": "HTTP 200, content ok",
+        "at": "2026-09-09T19:39:36.427Z"
+      }
+    },
+    "failing": []
+  },
+  "icecream": {
+    "status": "up",
+    "since": "2026-09-09T19:39:36.427Z",
+    "lastCheck": "2026-09-09T19:39:36.427Z",
+    "checks": {
+      "http": {
+        "ok": true,
+        "detail": "HTTP 200, content ok",
+        "at": "2026-09-09T19:39:36.427Z"
+      }
+    },
+    "failing": []
+  },
+  "news": {
+    "status": "down",
+    "since": "2026-09-09T19:39:36.427Z",
+    "lastCheck": "2026-09-09T19:39:36.427Z",
+    "checks": {
+      "http": {
+        "ok": false,
+        "detail": "fetch failed after retry: fetch failed",
+        "at": "2026-09-09T19:39:36.427Z"
+      }
+    },
+    "failing": [
+      {
+        "type": "http",
+        "detail": "fetch failed after retry: fetch failed"
+      }
+    ]
+  },
+  "paper": {
+    "status": "up",
+    "since": "2026-09-09T19:39:36.427Z",
+    "lastCheck": "2026-09-09T19:39:36.427Z",
+    "checks": {
+      "http": {
+        "ok": true,
+        "detail": "HTTP 200, content ok",
+        "at": "2026-09-09T19:39:36.427Z"
+      }
+    },
+    "failing": []
+  },
+  "wax": {
+    "status": "up",
+    "since": "2026-09-09T19:39:36.427Z",
+    "lastCheck": "2026-09-09T19:39:36.427Z",
+    "checks": {
+      "http": {
+        "ok": true,
+        "detail": "HTTP 200, content ok",
+        "at": "2026-09-09T19:39:36.427Z"
+      }
+    },
+    "failing": []
+  }
+}
