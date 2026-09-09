@@ -1,26 +1,28 @@
 {
-  "dashboard": {
+  "divorce": {
     "status": "up",
     "since": "2026-09-09T19:39:36.427Z",
-    "lastCheck": "2026-09-09T19:42:13.799Z",
+    "lastCheck": "2026-09-09T22:09:18.265Z",
     "checks": {
       "http": {
         "ok": true,
         "detail": "HTTP 200, content ok",
-        "at": "2026-09-09T19:42:13.799Z"
+        "ms": 276,
+        "at": "2026-09-09T22:09:18.265Z"
       }
     },
     "failing": []
   },
-  "divorce": {
+  "forge": {
     "status": "up",
-    "since": "2026-09-09T19:39:36.427Z",
-    "lastCheck": "2026-09-09T19:42:13.799Z",
+    "since": "2026-09-09T22:09:18.265Z",
+    "lastCheck": "2026-09-09T22:09:18.265Z",
     "checks": {
       "http": {
         "ok": true,
         "detail": "HTTP 200, content ok",
-        "at": "2026-09-09T19:42:13.799Z"
+        "ms": 263,
+        "at": "2026-09-09T22:09:18.265Z"
       }
     },
     "failing": []
@@ -28,43 +30,41 @@
   "icecream": {
     "status": "up",
     "since": "2026-09-09T19:39:36.427Z",
-    "lastCheck": "2026-09-09T19:42:13.799Z",
+    "lastCheck": "2026-09-09T22:09:18.265Z",
     "checks": {
       "http": {
         "ok": true,
         "detail": "HTTP 200, content ok",
-        "at": "2026-09-09T19:42:13.799Z"
+        "ms": 234,
+        "at": "2026-09-09T22:09:18.265Z"
       }
     },
     "failing": []
   },
   "mirror": {
-    "status": "down",
-    "since": "2026-09-09T19:42:13.799Z",
-    "lastCheck": "2026-09-09T19:42:13.799Z",
+    "status": "up",
+    "since": "2026-09-09T22:09:18.265Z",
+    "lastCheck": "2026-09-09T22:09:18.265Z",
     "checks": {
       "http": {
-        "ok": false,
-        "detail": "HTTP 404, expected 200",
-        "at": "2026-09-09T19:42:13.799Z"
+        "ok": true,
+        "detail": "HTTP 200, content ok",
+        "ms": 252,
+        "at": "2026-09-09T22:09:18.265Z"
       }
     },
-    "failing": [
-      {
-        "type": "http",
-        "detail": "HTTP 404, expected 200"
-      }
-    ]
+    "failing": []
   },
   "news": {
     "status": "down",
     "since": "2026-09-09T19:39:36.427Z",
-    "lastCheck": "2026-09-09T19:42:13.799Z",
+    "lastCheck": "2026-09-09T22:09:18.265Z",
     "checks": {
       "http": {
         "ok": false,
         "detail": "fetch failed after retry: fetch failed",
-        "at": "2026-09-09T19:42:13.799Z"
+        "ms": 15123,
+        "at": "2026-09-09T22:09:18.265Z"
       }
     },
     "failing": [
@@ -77,12 +77,27 @@
   "paper": {
     "status": "up",
     "since": "2026-09-09T19:39:36.427Z",
-    "lastCheck": "2026-09-09T19:42:13.799Z",
+    "lastCheck": "2026-09-09T22:09:18.265Z",
     "checks": {
       "http": {
         "ok": true,
         "detail": "HTTP 200, content ok",
-        "at": "2026-09-09T19:42:13.799Z"
+        "ms": 131,
+        "at": "2026-09-09T22:09:18.265Z"
+      }
+    },
+    "failing": []
+  },
+  "tower": {
+    "status": "up",
+    "since": "2026-09-09T22:09:18.265Z",
+    "lastCheck": "2026-09-09T22:09:18.265Z",
+    "checks": {
+      "http": {
+        "ok": true,
+        "detail": "HTTP 200, content ok",
+        "ms": 92,
+        "at": "2026-09-09T22:09:18.265Z"
       }
     },
     "failing": []
@@ -90,12 +105,13 @@
   "watchtower": {
     "status": "up",
     "since": "2026-09-09T19:42:13.799Z",
-    "lastCheck": "2026-09-09T19:42:13.799Z",
+    "lastCheck": "2026-09-09T22:09:18.265Z",
     "checks": {
       "http": {
         "ok": true,
         "detail": "HTTP 200, content ok",
-        "at": "2026-09-09T19:42:13.799Z"
+        "ms": 96,
+        "at": "2026-09-09T22:09:18.265Z"
       }
     },
     "failing": []
@@ -103,12 +119,27 @@
   "wax": {
     "status": "up",
     "since": "2026-09-09T19:39:36.427Z",
-    "lastCheck": "2026-09-09T19:42:13.799Z",
+    "lastCheck": "2026-09-09T22:09:18.265Z",
     "checks": {
       "http": {
         "ok": true,
         "detail": "HTTP 200, content ok",
-        "at": "2026-09-09T19:42:13.799Z"
+        "ms": 106,
+        "at": "2026-09-09T22:09:18.265Z"
+      }
+    },
+    "failing": []
+  },
+  "yeahdogs.github.io": {
+    "status": "up",
+    "since": "2026-09-09T22:09:18.265Z",
+    "lastCheck": "2026-09-09T22:09:18.265Z",
+    "checks": {
+      "http": {
+        "ok": true,
+        "detail": "HTTP 200, content ok",
+        "ms": 94,
+        "at": "2026-09-09T22:09:18.265Z"
       }
     },
     "failing": []
