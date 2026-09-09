@@ -22,7 +22,7 @@ const nowIso = new Date().toISOString();
 const results = {};
 for (const site of sites) {
   const r = await checkHttp(site);
-  results[site.name] = { http: { ok: r.ok, detail: r.detail } };
+  results[site.name] = { http: { ok: r.ok, detail: r.detail, ms: r.ms } };
   console.log(`${r.ok ? "UP  " : "DOWN"} ${site.name} (${r.ms}ms) ${r.detail}`);
 }
 
