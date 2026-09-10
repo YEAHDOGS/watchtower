@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-10T04:03:47.698Z",
+  "generatedAt": "2026-09-10T09:25:39.369Z",
   "sites": [
     {
       "name": "icecream",
@@ -7,8 +7,8 @@
       "repo": "icecream",
       "status": "up",
       "since": "2026-09-09T19:39:36.427Z",
-      "lastCheck": "2026-09-10T04:03:47.698Z",
-      "responseMs": 172,
+      "lastCheck": "2026-09-10T09:25:39.369Z",
+      "responseMs": 164,
       "failing": []
     },
     {
@@ -17,21 +17,19 @@
       "repo": "tower",
       "status": "up",
       "since": "2026-09-09T22:09:18.265Z",
-      "lastCheck": "2026-09-10T04:03:47.698Z",
-      "responseMs": 102,
+      "lastCheck": "2026-09-10T09:25:39.369Z",
+      "responseMs": 68,
       "failing": []
     },
     {
       "name": "watchtower",
       "url": "https://yeahdogs.github.io/watchtower/",
       "repo": "watchtower",
-      "status": "down",
-      "since": "2026-09-10T04:03:47.698Z",
-      "lastCheck": "2026-09-10T04:03:47.698Z",
-      "responseMs": 91,
-      "failing": [
-        "http: HTTP 404, expected 200"
-      ]
+      "status": "up",
+      "since": "2026-09-10T09:25:39.369Z",
+      "lastCheck": "2026-09-10T09:25:39.369Z",
+      "responseMs": 66,
+      "failing": []
     },
     {
       "name": "yeahdogs.github.io",
@@ -39,8 +37,8 @@
       "repo": "yeahdogs.github.io",
       "status": "up",
       "since": "2026-09-09T22:09:18.265Z",
-      "lastCheck": "2026-09-10T04:03:47.698Z",
-      "responseMs": 81,
+      "lastCheck": "2026-09-10T09:25:39.369Z",
+      "responseMs": 58,
       "failing": []
     }
   ]

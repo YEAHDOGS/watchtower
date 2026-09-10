@@ -2,13 +2,13 @@
   "icecream": {
     "status": "up",
     "since": "2026-09-09T19:39:36.427Z",
-    "lastCheck": "2026-09-10T04:03:47.698Z",
+    "lastCheck": "2026-09-10T09:25:39.369Z",
     "checks": {
       "http": {
         "ok": true,
         "detail": "HTTP 200, content ok",
-        "ms": 172,
-        "at": "2026-09-10T04:03:47.698Z"
+        "ms": 164,
+        "at": "2026-09-10T09:25:39.369Z"
       }
     },
     "failing": []
@@ -16,46 +16,41 @@
   "tower": {
     "status": "up",
     "since": "2026-09-09T22:09:18.265Z",
-    "lastCheck": "2026-09-10T04:03:47.698Z",
+    "lastCheck": "2026-09-10T09:25:39.369Z",
     "checks": {
       "http": {
         "ok": true,
         "detail": "HTTP 200, content ok",
-        "ms": 102,
-        "at": "2026-09-10T04:03:47.698Z"
+        "ms": 68,
+        "at": "2026-09-10T09:25:39.369Z"
       }
     },
     "failing": []
   },
   "watchtower": {
-    "status": "down",
-    "since": "2026-09-10T04:03:47.698Z",
-    "lastCheck": "2026-09-10T04:03:47.698Z",
-    "checks": {
-      "http": {
-        "ok": false,
-        "detail": "HTTP 404, expected 200",
-        "ms": 91,
-        "at": "2026-09-10T04:03:47.698Z"
-      }
-    },
-    "failing": [
-      {
-        "type": "http",
-        "detail": "HTTP 404, expected 200"
-      }
-    ]
-  },
-  "yeahdogs.github.io": {
     "status": "up",
-    "since": "2026-09-09T22:09:18.265Z",
-    "lastCheck": "2026-09-10T04:03:47.698Z",
+    "since": "2026-09-10T09:25:39.369Z",
+    "lastCheck": "2026-09-10T09:25:39.369Z",
     "checks": {
       "http": {
         "ok": true,
         "detail": "HTTP 200, content ok",
-        "ms": 81,
-        "at": "2026-09-10T04:03:47.698Z"
+        "ms": 66,
+        "at": "2026-09-10T09:25:39.369Z"
+      }
+    },
+    "failing": []
+  },
+  "yeahdogs.github.io": {
+    "status": "up",
+    "since": "2026-09-09T22:09:18.265Z",
+    "lastCheck": "2026-09-10T09:25:39.369Z",
+    "checks": {
+      "http": {
+        "ok": true,
+        "detail": "HTTP 200, content ok",
+        "ms": 58,
+        "at": "2026-09-10T09:25:39.369Z"
       }
     },
     "failing": []
