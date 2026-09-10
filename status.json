@@ -1,14 +1,104 @@
 {
-  "generatedAt": "2026-09-10T10:23:51.033Z",
+  "generatedAt": "2026-09-10T14:07:37.223Z",
   "sites": [
+    {
+      "name": "40",
+      "url": "https://yeahdogs.github.io/40/",
+      "repo": "40",
+      "status": "up",
+      "since": "2026-09-10T14:07:37.223Z",
+      "lastCheck": "2026-09-10T14:07:37.223Z",
+      "responseMs": 209,
+      "failing": []
+    },
+    {
+      "name": "demo",
+      "url": "https://yeahdogs.github.io/demo/",
+      "repo": "demo",
+      "status": "up",
+      "since": "2026-09-10T14:07:37.223Z",
+      "lastCheck": "2026-09-10T14:07:37.223Z",
+      "responseMs": 60,
+      "failing": []
+    },
     {
       "name": "icecream",
       "url": "https://yeahdogs.github.io/icecream/",
       "repo": "icecream",
       "status": "up",
       "since": "2026-09-09T19:39:36.427Z",
-      "lastCheck": "2026-09-10T10:23:51.033Z",
-      "responseMs": 148,
+      "lastCheck": "2026-09-10T14:07:37.223Z",
+      "responseMs": 55,
+      "failing": []
+    },
+    {
+      "name": "mirror",
+      "url": "https://yeahdogs.github.io/mirror/",
+      "repo": "mirror",
+      "status": "up",
+      "since": "2026-09-10T14:07:37.223Z",
+      "lastCheck": "2026-09-10T14:07:37.223Z",
+      "responseMs": 259,
+      "failing": []
+    },
+    {
+      "name": "news",
+      "url": "https://yeahdogs.github.io/news/",
+      "repo": "news",
+      "status": "up",
+      "since": "2026-09-10T14:07:37.223Z",
+      "lastCheck": "2026-09-10T14:07:37.223Z",
+      "responseMs": 43,
+      "failing": []
+    },
+    {
+      "name": "paper",
+      "url": "https://yeahdogs.github.io/paper/",
+      "repo": "paper",
+      "status": "up",
+      "since": "2026-09-10T14:07:37.223Z",
+      "lastCheck": "2026-09-10T14:07:37.223Z",
+      "responseMs": 53,
+      "failing": []
+    },
+    {
+      "name": "pay",
+      "url": "https://yeahdogs.github.io/pay/",
+      "repo": "pay",
+      "status": "up",
+      "since": "2026-09-10T14:07:37.223Z",
+      "lastCheck": "2026-09-10T14:07:37.223Z",
+      "responseMs": 80,
+      "failing": []
+    },
+    {
+      "name": "phoenix",
+      "url": "https://yeahdogs.github.io/phoenix/",
+      "repo": "phoenix",
+      "status": "up",
+      "since": "2026-09-10T14:07:37.223Z",
+      "lastCheck": "2026-09-10T14:07:37.223Z",
+      "responseMs": 43,
+      "failing": []
+    },
+    {
+      "name": "playback",
+      "url": "https://yeahdogs.github.io/playback/",
+      "repo": "playback",
+      "status": "up",
+      "since": "2026-09-10T14:07:37.223Z",
+      "lastCheck": "2026-09-10T14:07:37.223Z",
+      "responseMs": 236,
+      "failing": []
+    },
+    {
+      "name": "proof",
+      "url": "https://yeahdogs.github.io/proof/",
+      "repo": "proof",
+      "status": "up",
+      "since": "2026-09-10T14:07:37.223Z",
+      "lastCheck": "2026-09-10T14:07:37.223Z",
+      "responseMs": 52,
       "failing": []
     },
     {
@@ -17,8 +107,8 @@
       "repo": "tower",
       "status": "up",
       "since": "2026-09-09T22:09:18.265Z",
-      "lastCheck": "2026-09-10T10:23:51.033Z",
-      "responseMs": 63,
+      "lastCheck": "2026-09-10T14:07:37.223Z",
+      "responseMs": 76,
       "failing": []
     },
     {
@@ -27,8 +117,18 @@
       "repo": "watchtower",
       "status": "up",
       "since": "2026-09-10T09:25:39.369Z",
-      "lastCheck": "2026-09-10T10:23:51.033Z",
-      "responseMs": 80,
+      "lastCheck": "2026-09-10T14:07:37.223Z",
+      "responseMs": 63,
+      "failing": []
+    },
+    {
+      "name": "wax",
+      "url": "https://yeahdogs.github.io/wax/",
+      "repo": "wax",
+      "status": "up",
+      "since": "2026-09-10T14:07:37.223Z",
+      "lastCheck": "2026-09-10T14:07:37.223Z",
+      "responseMs": 44,
       "failing": []
     },
     {
@@ -37,8 +137,8 @@
       "repo": "yeahdogs.github.io",
       "status": "up",
       "since": "2026-09-09T22:09:18.265Z",
-      "lastCheck": "2026-09-10T10:23:51.033Z",
-      "responseMs": 50,
+      "lastCheck": "2026-09-10T14:07:37.223Z",
+      "responseMs": 62,
       "failing": []
     }
   ]
