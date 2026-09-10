@@ -2,7 +2,7 @@ name: watch
 
 on:
   schedule:
-    - cron: "*/30 * * * *" # HTTP checks every 30 minutes
+    - cron: "0 * * * *" # HTTP checks every hour
     - cron: "0 6 * * *" # full Playwright e2e daily at 06:00 UTC
   workflow_dispatch:
     inputs:
@@ -23,8 +23,8 @@ jobs:
   http:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-node@v4
+      - uses: actions/checkout@v7
+      - uses: actions/setup-node@v7
         with:
           node-version: 24
       - name: Discover org sites + HTTP checks
@@ -45,8 +45,8 @@ jobs:
     if: github.event.schedule == '0 6 * * *' || github.event.inputs.e2e == 'true'
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-node@v4
+      - uses: actions/checkout@v7
+      - uses: actions/setup-node@v7
         with:
           node-version: 24
       - name: Install deps
@@ -73,7 +73,7 @@ jobs:
           git push
       - name: Upload screenshots
         if: always()
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v7
         with:
           name: e2e-screenshots
           path: screenshots/
