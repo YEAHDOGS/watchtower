@@ -12,7 +12,7 @@ const realYaml = readFileSync(new URL("../../sites.yaml", import.meta.url), "utf
 
 test("parses the real sites.yaml overrides", () => {
   const o = parseOverridesYaml(realYaml);
-  assert.equal(o.paper.expect_content, "PAPER — Fake money");
+  assert.equal(o.paper.expect_content, "PAPER. Fake money");
   assert.equal(o.paper.e2e_selector, ".paper-banner");
   assert.equal(o.icecream.e2e_selector, "#app");
   assert.ok(!("name" in o.paper));
@@ -42,14 +42,14 @@ test("mergeInventory applies overrides, defaults, names, and skip", () => {
     { repo: "retired", url: "https://yeahdogs.github.io/retired/", customDomain: null },
   ];
   const overrides = {
-    paper: { expect_content: "PAPER — Fake money", e2e_selector: ".paper-banner", name: "Paper Trading" },
+    paper: { expect_content: "PAPER. Fake money", e2e_selector: ".paper-banner", name: "Paper Trading" },
     retired: { skip: true },
   };
   const sites = mergeInventory(discovered, overrides);
   assert.equal(sites.length, 2);
   const paper = sites.find((s) => s.repo === "paper");
   assert.equal(paper.name, "Paper Trading");
-  assert.equal(paper.expect_content, "PAPER — Fake money");
+  assert.equal(paper.expect_content, "PAPER. Fake money");
   assert.equal(paper.e2e_selector, ".paper-banner");
   const fresh = sites.find((s) => s.repo === "brandnew");
   assert.equal(fresh.name, "brandnew");
