@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-12T23:50:15.274Z",
+  "generatedAt": "2026-09-13T03:46:51.694Z",
   "sites": [
     {
       "name": ".dog",
@@ -7,8 +7,8 @@
       "repo": ".dog",
       "status": "up",
       "since": "2026-09-12T12:42:21.629Z",
-      "lastCheck": "2026-09-12T23:50:15.274Z",
-      "responseMs": 85,
+      "lastCheck": "2026-09-13T03:46:51.694Z",
+      "responseMs": 143,
       "failing": []
     },
     {
@@ -17,8 +17,8 @@
       "repo": "40",
       "status": "up",
       "since": "2026-09-10T14:07:37.223Z",
-      "lastCheck": "2026-09-12T23:50:15.274Z",
-      "responseMs": 68,
+      "lastCheck": "2026-09-13T03:46:51.694Z",
+      "responseMs": 67,
       "failing": []
     },
     {
@@ -27,8 +27,8 @@
       "repo": "bakery",
       "status": "up",
       "since": "2026-09-11T10:25:36.698Z",
-      "lastCheck": "2026-09-12T23:50:15.274Z",
-      "responseMs": 45,
+      "lastCheck": "2026-09-13T03:46:51.694Z",
+      "responseMs": 77,
       "failing": []
     },
     {
@@ -37,8 +37,8 @@
       "repo": "castle",
       "status": "up",
       "since": "2026-09-10T18:11:55.248Z",
-      "lastCheck": "2026-09-12T23:50:15.274Z",
-      "responseMs": 60,
+      "lastCheck": "2026-09-13T03:46:51.694Z",
+      "responseMs": 89,
       "failing": []
     },
     {
@@ -47,8 +47,8 @@
       "repo": "castle-os",
       "status": "up",
       "since": "2026-09-11T13:21:16.252Z",
-      "lastCheck": "2026-09-12T23:50:15.274Z",
-      "responseMs": 39,
+      "lastCheck": "2026-09-13T03:46:51.694Z",
+      "responseMs": 66,
       "failing": []
     },
     {
@@ -57,8 +57,8 @@
       "repo": "chains",
       "status": "up",
       "since": "2026-09-11T13:21:16.252Z",
-      "lastCheck": "2026-09-12T23:50:15.274Z",
-      "responseMs": 43,
+      "lastCheck": "2026-09-13T03:46:51.694Z",
+      "responseMs": 73,
       "failing": []
     },
     {
@@ -67,8 +67,8 @@
       "repo": "demo",
       "status": "up",
       "since": "2026-09-10T14:07:37.223Z",
-      "lastCheck": "2026-09-12T23:50:15.274Z",
-      "responseMs": 31,
+      "lastCheck": "2026-09-13T03:46:51.694Z",
+      "responseMs": 69,
       "failing": []
     },
     {
@@ -77,8 +77,8 @@
       "repo": "forge",
       "status": "up",
       "since": "2026-09-11T10:25:36.698Z",
-      "lastCheck": "2026-09-12T23:50:15.274Z",
-      "responseMs": 19,
+      "lastCheck": "2026-09-13T03:46:51.694Z",
+      "responseMs": 67,
       "failing": []
     },
     {
@@ -87,8 +87,8 @@
       "repo": "icecream",
       "status": "up",
       "since": "2026-09-09T19:39:36.427Z",
-      "lastCheck": "2026-09-12T23:50:15.274Z",
-      "responseMs": 48,
+      "lastCheck": "2026-09-13T03:46:51.694Z",
+      "responseMs": 69,
       "failing": []
     },
     {
@@ -97,8 +97,8 @@
       "repo": "id",
       "status": "up",
       "since": "2026-09-11T10:25:36.698Z",
-      "lastCheck": "2026-09-12T23:50:15.274Z",
-      "responseMs": 54,
+      "lastCheck": "2026-09-13T03:46:51.694Z",
+      "responseMs": 65,
       "failing": []
     },
     {
@@ -107,8 +107,8 @@
       "repo": "mirror",
       "status": "up",
       "since": "2026-09-10T14:07:37.223Z",
-      "lastCheck": "2026-09-12T23:50:15.274Z",
-      "responseMs": 32,
+      "lastCheck": "2026-09-13T03:46:51.694Z",
+      "responseMs": 80,
       "failing": []
     },
     {
@@ -117,8 +117,8 @@
       "repo": "news",
       "status": "up",
       "since": "2026-09-10T14:07:37.223Z",
-      "lastCheck": "2026-09-12T23:50:15.274Z",
-      "responseMs": 44,
+      "lastCheck": "2026-09-13T03:46:51.694Z",
+      "responseMs": 63,
       "failing": []
     },
     {
@@ -127,8 +127,8 @@
       "repo": "paper",
       "status": "down",
       "since": "2026-09-12T12:42:21.629Z",
-      "lastCheck": "2026-09-12T23:50:15.274Z",
-      "responseMs": 37,
+      "lastCheck": "2026-09-13T03:46:51.694Z",
+      "responseMs": 69,
       "failing": [
         "http: HTTP 200 but content check failed (missing \"PAPER — Fake money\")"
       ]
@@ -139,8 +139,8 @@
       "repo": "pay",
       "status": "up",
       "since": "2026-09-10T14:07:37.223Z",
-      "lastCheck": "2026-09-12T23:50:15.274Z",
-      "responseMs": 41,
+      "lastCheck": "2026-09-13T03:46:51.694Z",
+      "responseMs": 61,
       "failing": []
     },
     {
@@ -149,8 +149,8 @@
       "repo": "phoenix",
       "status": "up",
       "since": "2026-09-10T14:07:37.223Z",
-      "lastCheck": "2026-09-12T23:50:15.274Z",
-      "responseMs": 47,
+      "lastCheck": "2026-09-13T03:46:51.694Z",
+      "responseMs": 67,
       "failing": []
     },
     {
@@ -159,8 +159,8 @@
       "repo": "playback",
       "status": "up",
       "since": "2026-09-10T14:07:37.223Z",
-      "lastCheck": "2026-09-12T23:50:15.274Z",
-      "responseMs": 72,
+      "lastCheck": "2026-09-13T03:46:51.694Z",
+      "responseMs": 66,
       "failing": []
     },
     {
@@ -169,8 +169,8 @@
       "repo": "printshop",
       "status": "up",
       "since": "2026-09-11T10:25:36.698Z",
-      "lastCheck": "2026-09-12T23:50:15.274Z",
-      "responseMs": 37,
+      "lastCheck": "2026-09-13T03:46:51.694Z",
+      "responseMs": 77,
       "failing": []
     },
     {
@@ -179,8 +179,8 @@
       "repo": "proof",
       "status": "up",
       "since": "2026-09-10T14:07:37.223Z",
-      "lastCheck": "2026-09-12T23:50:15.274Z",
-      "responseMs": 42,
+      "lastCheck": "2026-09-13T03:46:51.694Z",
+      "responseMs": 65,
       "failing": []
     },
     {
@@ -189,8 +189,8 @@
       "repo": "radio",
       "status": "up",
       "since": "2026-09-11T10:25:36.698Z",
-      "lastCheck": "2026-09-12T23:50:15.274Z",
-      "responseMs": 38,
+      "lastCheck": "2026-09-13T03:46:51.694Z",
+      "responseMs": 64,
       "failing": []
     },
     {
@@ -199,8 +199,8 @@
       "repo": "remote",
       "status": "up",
       "since": "2026-09-11T10:25:36.698Z",
-      "lastCheck": "2026-09-12T23:50:15.274Z",
-      "responseMs": 34,
+      "lastCheck": "2026-09-13T03:46:51.694Z",
+      "responseMs": 74,
       "failing": []
     },
     {
@@ -209,8 +209,8 @@
       "repo": "sampler",
       "status": "up",
       "since": "2026-09-11T10:25:36.698Z",
-      "lastCheck": "2026-09-12T23:50:15.274Z",
-      "responseMs": 45,
+      "lastCheck": "2026-09-13T03:46:51.694Z",
+      "responseMs": 87,
       "failing": []
     },
     {
@@ -219,8 +219,8 @@
       "repo": "sdm",
       "status": "up",
       "since": "2026-09-11T10:25:36.698Z",
-      "lastCheck": "2026-09-12T23:50:15.274Z",
-      "responseMs": 34,
+      "lastCheck": "2026-09-13T03:46:51.694Z",
+      "responseMs": 62,
       "failing": []
     },
     {
@@ -229,8 +229,8 @@
       "repo": "tower",
       "status": "up",
       "since": "2026-09-09T22:09:18.265Z",
-      "lastCheck": "2026-09-12T23:50:15.274Z",
-      "responseMs": 35,
+      "lastCheck": "2026-09-13T03:46:51.694Z",
+      "responseMs": 67,
       "failing": []
     },
     {
@@ -239,8 +239,8 @@
       "repo": "watchtower",
       "status": "up",
       "since": "2026-09-10T09:25:39.369Z",
-      "lastCheck": "2026-09-12T23:50:15.274Z",
-      "responseMs": 34,
+      "lastCheck": "2026-09-13T03:46:51.694Z",
+      "responseMs": 65,
       "failing": []
     },
     {
@@ -249,8 +249,8 @@
       "repo": "wax",
       "status": "down",
       "since": "2026-09-11T10:25:36.698Z",
-      "lastCheck": "2026-09-12T23:50:15.274Z",
-      "responseMs": 39,
+      "lastCheck": "2026-09-13T03:46:51.694Z",
+      "responseMs": 65,
       "failing": [
         "http: HTTP 200 but content check failed (missing \"Wax — don't miss\")"
       ]
@@ -261,8 +261,8 @@
       "repo": "yeahdogs.github.io",
       "status": "up",
       "since": "2026-09-09T22:09:18.265Z",
-      "lastCheck": "2026-09-12T23:50:15.274Z",
-      "responseMs": 36,
+      "lastCheck": "2026-09-13T03:46:51.694Z",
+      "responseMs": 84,
       "failing": []
     }
   ]
