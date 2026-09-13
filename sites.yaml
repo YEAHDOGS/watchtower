@@ -7,7 +7,7 @@
 # Allowed keys per repo: name, expect_status, expect_content, e2e_selector, skip.
 overrides:
   paper:
-    expect_content: PAPER — Fake money
+    expect_content: PAPER. Fake money
     e2e_selector: .paper-banner
   dashboard:
     expect_content: DOGS Mission Control
@@ -16,7 +16,7 @@ overrides:
     expect_content: The Scoop
     e2e_selector: "#app"
   wax:
-    expect_content: Wax — don't miss
+    expect_content: Wax — Never Miss a Drop
     e2e_selector: "#root"
   divorce:
     expect_content: Uncontested Divorce
