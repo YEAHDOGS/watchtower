@@ -35,7 +35,7 @@ Repo deleted or Pages disabled? It drops off the dashboard automatically.
   (baseline) — no alert for something that was already down.
 - GitHub's own issue notifications are the alert channel (they email per your
   GitHub notification settings). There is deliberately no SMTP email path:
-  literal email to user@wearedogs.net was not wired up — it needs mailbox
+  literal email to hello@wearedogs.net was not wired up — it needs mailbox
   credentials and would just duplicate GitHub notifications.
 
 ## Adding / tuning a site
