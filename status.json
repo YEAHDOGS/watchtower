@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-17T13:08:35.303Z",
+  "generatedAt": "2026-09-17T17:58:56.114Z",
   "sites": [
     {
       "name": ".dog",
@@ -7,8 +7,8 @@
       "repo": ".dog",
       "status": "up",
       "since": "2026-09-12T12:42:21.629Z",
-      "lastCheck": "2026-09-17T13:08:35.303Z",
-      "responseMs": 126,
+      "lastCheck": "2026-09-17T17:58:56.114Z",
+      "responseMs": 148,
       "failing": []
     },
     {
@@ -17,8 +17,8 @@
       "repo": "40",
       "status": "up",
       "since": "2026-09-10T14:07:37.223Z",
-      "lastCheck": "2026-09-17T13:08:35.303Z",
-      "responseMs": 372,
+      "lastCheck": "2026-09-17T17:58:56.114Z",
+      "responseMs": 120,
       "failing": []
     },
     {
@@ -27,8 +27,8 @@
       "repo": "bakery",
       "status": "up",
       "since": "2026-09-11T10:25:36.698Z",
-      "lastCheck": "2026-09-17T13:08:35.303Z",
-      "responseMs": 97,
+      "lastCheck": "2026-09-17T17:58:56.114Z",
+      "responseMs": 93,
       "failing": []
     },
     {
@@ -37,8 +37,8 @@
       "repo": "castle",
       "status": "up",
       "since": "2026-09-10T18:11:55.248Z",
-      "lastCheck": "2026-09-17T13:08:35.303Z",
-      "responseMs": 112,
+      "lastCheck": "2026-09-17T17:58:56.114Z",
+      "responseMs": 83,
       "failing": []
     },
     {
@@ -47,8 +47,8 @@
       "repo": "castle-os",
       "status": "up",
       "since": "2026-09-11T13:21:16.252Z",
-      "lastCheck": "2026-09-17T13:08:35.303Z",
-      "responseMs": 98,
+      "lastCheck": "2026-09-17T17:58:56.114Z",
+      "responseMs": 69,
       "failing": []
     },
     {
@@ -57,8 +57,8 @@
       "repo": "chains",
       "status": "up",
       "since": "2026-09-11T13:21:16.252Z",
-      "lastCheck": "2026-09-17T13:08:35.303Z",
-      "responseMs": 111,
+      "lastCheck": "2026-09-17T17:58:56.114Z",
+      "responseMs": 131,
       "failing": []
     },
     {
@@ -67,8 +67,18 @@
       "repo": "demo",
       "status": "up",
       "since": "2026-09-10T14:07:37.223Z",
-      "lastCheck": "2026-09-17T13:08:35.303Z",
-      "responseMs": 93,
+      "lastCheck": "2026-09-17T17:58:56.114Z",
+      "responseMs": 173,
+      "failing": []
+    },
+    {
+      "name": "firehose",
+      "url": "https://yeahdogs.github.io/firehose/",
+      "repo": "firehose",
+      "status": "up",
+      "since": "2026-09-17T17:58:56.114Z",
+      "lastCheck": "2026-09-17T17:58:56.114Z",
+      "responseMs": 59,
       "failing": []
     },
     {
@@ -77,8 +87,8 @@
       "repo": "forge",
       "status": "up",
       "since": "2026-09-11T10:25:36.698Z",
-      "lastCheck": "2026-09-17T13:08:35.303Z",
-      "responseMs": 117,
+      "lastCheck": "2026-09-17T17:58:56.114Z",
+      "responseMs": 252,
       "failing": []
     },
     {
@@ -87,8 +97,8 @@
       "repo": "icecream",
       "status": "up",
       "since": "2026-09-09T19:39:36.427Z",
-      "lastCheck": "2026-09-17T13:08:35.303Z",
-      "responseMs": 110,
+      "lastCheck": "2026-09-17T17:58:56.114Z",
+      "responseMs": 74,
       "failing": []
     },
     {
@@ -97,8 +107,8 @@
       "repo": "id",
       "status": "up",
       "since": "2026-09-11T10:25:36.698Z",
-      "lastCheck": "2026-09-17T13:08:35.303Z",
-      "responseMs": 98,
+      "lastCheck": "2026-09-17T17:58:56.114Z",
+      "responseMs": 86,
       "failing": []
     },
     {
@@ -107,8 +117,8 @@
       "repo": "mirror",
       "status": "up",
       "since": "2026-09-10T14:07:37.223Z",
-      "lastCheck": "2026-09-17T13:08:35.303Z",
-      "responseMs": 108,
+      "lastCheck": "2026-09-17T17:58:56.114Z",
+      "responseMs": 105,
       "failing": []
     },
     {
@@ -117,8 +127,8 @@
       "repo": "news",
       "status": "up",
       "since": "2026-09-10T14:07:37.223Z",
-      "lastCheck": "2026-09-17T13:08:35.303Z",
-      "responseMs": 102,
+      "lastCheck": "2026-09-17T17:58:56.114Z",
+      "responseMs": 70,
       "failing": []
     },
     {
@@ -127,8 +137,8 @@
       "repo": "paper",
       "status": "up",
       "since": "2026-09-13T09:15:17.301Z",
-      "lastCheck": "2026-09-17T13:08:35.303Z",
-      "responseMs": 240,
+      "lastCheck": "2026-09-17T17:58:56.114Z",
+      "responseMs": 86,
       "failing": []
     },
     {
@@ -137,8 +147,8 @@
       "repo": "pay",
       "status": "up",
       "since": "2026-09-10T14:07:37.223Z",
-      "lastCheck": "2026-09-17T13:08:35.303Z",
-      "responseMs": 344,
+      "lastCheck": "2026-09-17T17:58:56.114Z",
+      "responseMs": 60,
       "failing": []
     },
     {
@@ -147,8 +157,8 @@
       "repo": "phoenix",
       "status": "up",
       "since": "2026-09-10T14:07:37.223Z",
-      "lastCheck": "2026-09-17T13:08:35.303Z",
-      "responseMs": 104,
+      "lastCheck": "2026-09-17T17:58:56.114Z",
+      "responseMs": 74,
       "failing": []
     },
     {
@@ -157,8 +167,8 @@
       "repo": "playback",
       "status": "up",
       "since": "2026-09-10T14:07:37.223Z",
-      "lastCheck": "2026-09-17T13:08:35.303Z",
-      "responseMs": 98,
+      "lastCheck": "2026-09-17T17:58:56.114Z",
+      "responseMs": 103,
       "failing": []
     },
     {
@@ -167,8 +177,8 @@
       "repo": "printshop",
       "status": "up",
       "since": "2026-09-11T10:25:36.698Z",
-      "lastCheck": "2026-09-17T13:08:35.303Z",
-      "responseMs": 128,
+      "lastCheck": "2026-09-17T17:58:56.114Z",
+      "responseMs": 67,
       "failing": []
     },
     {
@@ -177,19 +187,21 @@
       "repo": "proof",
       "status": "up",
       "since": "2026-09-10T14:07:37.223Z",
-      "lastCheck": "2026-09-17T13:08:35.303Z",
-      "responseMs": 135,
+      "lastCheck": "2026-09-17T17:58:56.114Z",
+      "responseMs": 91,
       "failing": []
     },
     {
       "name": "radio",
-      "url": "https://yeahdogs.github.io/radio/",
+      "url": "https://radio.dogs.red/",
       "repo": "radio",
-      "status": "up",
-      "since": "2026-09-11T10:25:36.698Z",
-      "lastCheck": "2026-09-17T13:08:35.303Z",
-      "responseMs": 113,
-      "failing": []
+      "status": "down",
+      "since": "2026-09-17T17:58:56.114Z",
+      "lastCheck": "2026-09-17T17:58:56.114Z",
+      "responseMs": 15267,
+      "failing": [
+        "http: fetch failed after retry: fetch failed"
+      ]
     },
     {
       "name": "remote",
@@ -197,8 +209,8 @@
       "repo": "remote",
       "status": "up",
       "since": "2026-09-11T10:25:36.698Z",
-      "lastCheck": "2026-09-17T13:08:35.303Z",
-      "responseMs": 117,
+      "lastCheck": "2026-09-17T17:58:56.114Z",
+      "responseMs": 99,
       "failing": []
     },
     {
@@ -207,8 +219,8 @@
       "repo": "sampler",
       "status": "up",
       "since": "2026-09-11T10:25:36.698Z",
-      "lastCheck": "2026-09-17T13:08:35.303Z",
-      "responseMs": 103,
+      "lastCheck": "2026-09-17T17:58:56.114Z",
+      "responseMs": 162,
       "failing": []
     },
     {
@@ -217,19 +229,21 @@
       "repo": "sdm",
       "status": "up",
       "since": "2026-09-11T10:25:36.698Z",
-      "lastCheck": "2026-09-17T13:08:35.303Z",
-      "responseMs": 117,
+      "lastCheck": "2026-09-17T17:58:56.114Z",
+      "responseMs": 83,
       "failing": []
     },
     {
       "name": "shiftwork",
-      "url": "https://yeahdogs.github.io/shiftwork/",
+      "url": "https://shiftwork.dogs.red/",
       "repo": "shiftwork",
-      "status": "up",
-      "since": "2026-09-17T07:18:34.146Z",
-      "lastCheck": "2026-09-17T13:08:35.303Z",
-      "responseMs": 112,
-      "failing": []
+      "status": "down",
+      "since": "2026-09-17T17:58:56.114Z",
+      "lastCheck": "2026-09-17T17:58:56.114Z",
+      "responseMs": 15434,
+      "failing": [
+        "http: fetch failed after retry: fetch failed"
+      ]
     },
     {
       "name": "tower",
@@ -237,8 +251,8 @@
       "repo": "tower",
       "status": "up",
       "since": "2026-09-09T22:09:18.265Z",
-      "lastCheck": "2026-09-17T13:08:35.303Z",
-      "responseMs": 107,
+      "lastCheck": "2026-09-17T17:58:56.114Z",
+      "responseMs": 102,
       "failing": []
     },
     {
@@ -247,8 +261,8 @@
       "repo": "walkthru",
       "status": "up",
       "since": "2026-09-14T05:56:34.189Z",
-      "lastCheck": "2026-09-17T13:08:35.303Z",
-      "responseMs": 114,
+      "lastCheck": "2026-09-17T17:58:56.114Z",
+      "responseMs": 83,
       "failing": []
     },
     {
@@ -257,8 +271,8 @@
       "repo": "watchtower",
       "status": "up",
       "since": "2026-09-10T09:25:39.369Z",
-      "lastCheck": "2026-09-17T13:08:35.303Z",
-      "responseMs": 106,
+      "lastCheck": "2026-09-17T17:58:56.114Z",
+      "responseMs": 65,
       "failing": []
     },
     {
@@ -267,8 +281,8 @@
       "repo": "wax",
       "status": "up",
       "since": "2026-09-13T09:15:17.301Z",
-      "lastCheck": "2026-09-17T13:08:35.303Z",
-      "responseMs": 122,
+      "lastCheck": "2026-09-17T17:58:56.114Z",
+      "responseMs": 87,
       "failing": []
     },
     {
@@ -277,8 +291,8 @@
       "repo": "yeahdogs.github.io",
       "status": "up",
       "since": "2026-09-09T22:09:18.265Z",
-      "lastCheck": "2026-09-17T13:08:35.303Z",
-      "responseMs": 97,
+      "lastCheck": "2026-09-17T17:58:56.114Z",
+      "responseMs": 159,
       "failing": []
     }
   ]
