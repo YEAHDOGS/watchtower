@@ -2,13 +2,13 @@
   "40": {
     "status": "up",
     "since": "2026-09-10T14:07:37.223Z",
-    "lastCheck": "2026-09-17T21:15:44.129Z",
+    "lastCheck": "2026-09-17T23:57:59.385Z",
     "checks": {
       "http": {
         "ok": true,
         "detail": "HTTP 200, content ok",
-        "ms": 78,
-        "at": "2026-09-17T21:15:44.129Z"
+        "ms": 42,
+        "at": "2026-09-17T23:57:59.385Z"
       }
     },
     "failing": []
@@ -16,13 +16,13 @@
   ".dog": {
     "status": "up",
     "since": "2026-09-12T12:42:21.629Z",
-    "lastCheck": "2026-09-17T21:15:44.129Z",
+    "lastCheck": "2026-09-17T23:57:59.385Z",
     "checks": {
       "http": {
         "ok": true,
         "detail": "HTTP 200, content ok",
-        "ms": 131,
-        "at": "2026-09-17T21:15:44.129Z"
+        "ms": 54,
+        "at": "2026-09-17T23:57:59.385Z"
       }
     },
     "failing": []
@@ -30,13 +30,13 @@
   "bakery": {
     "status": "up",
     "since": "2026-09-11T10:25:36.698Z",
-    "lastCheck": "2026-09-17T21:15:44.129Z",
+    "lastCheck": "2026-09-17T23:57:59.385Z",
     "checks": {
       "http": {
         "ok": true,
         "detail": "HTTP 200, content ok",
-        "ms": 144,
-        "at": "2026-09-17T21:15:44.129Z"
+        "ms": 37,
+        "at": "2026-09-17T23:57:59.385Z"
       }
     },
     "failing": []
@@ -44,13 +44,13 @@
   "castle": {
     "status": "up",
     "since": "2026-09-10T18:11:55.248Z",
-    "lastCheck": "2026-09-17T21:15:44.129Z",
+    "lastCheck": "2026-09-17T23:57:59.385Z",
     "checks": {
       "http": {
         "ok": true,
         "detail": "HTTP 200, content ok",
-        "ms": 139,
-        "at": "2026-09-17T21:15:44.129Z"
+        "ms": 60,
+        "at": "2026-09-17T23:57:59.385Z"
       }
     },
     "failing": []
@@ -58,13 +58,13 @@
   "castle-os": {
     "status": "up",
     "since": "2026-09-11T13:21:16.252Z",
-    "lastCheck": "2026-09-17T21:15:44.129Z",
+    "lastCheck": "2026-09-17T23:57:59.385Z",
     "checks": {
       "http": {
         "ok": true,
         "detail": "HTTP 200, content ok",
-        "ms": 67,
-        "at": "2026-09-17T21:15:44.129Z"
+        "ms": 42,
+        "at": "2026-09-17T23:57:59.385Z"
       }
     },
     "failing": []
@@ -72,13 +72,13 @@
   "chains": {
     "status": "up",
     "since": "2026-09-11T13:21:16.252Z",
-    "lastCheck": "2026-09-17T21:15:44.129Z",
+    "lastCheck": "2026-09-17T23:57:59.385Z",
     "checks": {
       "http": {
         "ok": true,
         "detail": "HTTP 200, content ok",
-        "ms": 145,
-        "at": "2026-09-17T21:15:44.129Z"
+        "ms": 70,
+        "at": "2026-09-17T23:57:59.385Z"
       }
     },
     "failing": []
@@ -86,13 +86,13 @@
   "demo": {
     "status": "up",
     "since": "2026-09-10T14:07:37.223Z",
-    "lastCheck": "2026-09-17T21:15:44.129Z",
+    "lastCheck": "2026-09-17T23:57:59.385Z",
     "checks": {
       "http": {
         "ok": true,
         "detail": "HTTP 200, content ok",
-        "ms": 82,
-        "at": "2026-09-17T21:15:44.129Z"
+        "ms": 40,
+        "at": "2026-09-17T23:57:59.385Z"
       }
     },
     "failing": []
@@ -100,13 +100,13 @@
   "firehose": {
     "status": "up",
     "since": "2026-09-17T17:58:56.114Z",
-    "lastCheck": "2026-09-17T21:15:44.129Z",
+    "lastCheck": "2026-09-17T23:57:59.385Z",
     "checks": {
       "http": {
         "ok": true,
         "detail": "HTTP 200, content ok",
-        "ms": 80,
-        "at": "2026-09-17T21:15:44.129Z"
+        "ms": 117,
+        "at": "2026-09-17T23:57:59.385Z"
       }
     },
     "failing": []
@@ -114,13 +114,13 @@
   "forge": {
     "status": "up",
     "since": "2026-09-11T10:25:36.698Z",
-    "lastCheck": "2026-09-17T21:15:44.129Z",
+    "lastCheck": "2026-09-17T23:57:59.385Z",
     "checks": {
       "http": {
         "ok": true,
         "detail": "HTTP 200, content ok",
-        "ms": 79,
-        "at": "2026-09-17T21:15:44.129Z"
+        "ms": 32,
+        "at": "2026-09-17T23:57:59.385Z"
       }
     },
     "failing": []
@@ -128,13 +128,13 @@
   "icecream": {
     "status": "up",
     "since": "2026-09-09T19:39:36.427Z",
-    "lastCheck": "2026-09-17T21:15:44.129Z",
+    "lastCheck": "2026-09-17T23:57:59.385Z",
     "checks": {
       "http": {
         "ok": true,
         "detail": "HTTP 200, content ok",
-        "ms": 100,
-        "at": "2026-09-17T21:15:44.129Z"
+        "ms": 50,
+        "at": "2026-09-17T23:57:59.385Z"
       }
     },
     "failing": []
@@ -142,13 +142,13 @@
   "id": {
     "status": "up",
     "since": "2026-09-11T10:25:36.698Z",
-    "lastCheck": "2026-09-17T21:15:44.129Z",
+    "lastCheck": "2026-09-17T23:57:59.385Z",
     "checks": {
       "http": {
         "ok": true,
         "detail": "HTTP 200, content ok",
-        "ms": 82,
-        "at": "2026-09-17T21:15:44.129Z"
+        "ms": 45,
+        "at": "2026-09-17T23:57:59.385Z"
       }
     },
     "failing": []
@@ -156,13 +156,13 @@
   "mirror": {
     "status": "up",
     "since": "2026-09-10T14:07:37.223Z",
-    "lastCheck": "2026-09-17T21:15:44.129Z",
+    "lastCheck": "2026-09-17T23:57:59.385Z",
     "checks": {
       "http": {
         "ok": true,
         "detail": "HTTP 200, content ok",
-        "ms": 77,
-        "at": "2026-09-17T21:15:44.129Z"
+        "ms": 50,
+        "at": "2026-09-17T23:57:59.385Z"
       }
     },
     "failing": []
@@ -170,13 +170,13 @@
   "news": {
     "status": "up",
     "since": "2026-09-10T14:07:37.223Z",
-    "lastCheck": "2026-09-17T21:15:44.129Z",
+    "lastCheck": "2026-09-17T23:57:59.385Z",
     "checks": {
       "http": {
         "ok": true,
         "detail": "HTTP 200, content ok",
-        "ms": 80,
-        "at": "2026-09-17T21:15:44.129Z"
+        "ms": 50,
+        "at": "2026-09-17T23:57:59.385Z"
       }
     },
     "failing": []
@@ -184,13 +184,13 @@
   "paper": {
     "status": "up",
     "since": "2026-09-13T09:15:17.301Z",
-    "lastCheck": "2026-09-17T21:15:44.129Z",
+    "lastCheck": "2026-09-17T23:57:59.385Z",
     "checks": {
       "http": {
         "ok": true,
         "detail": "HTTP 200, content ok",
-        "ms": 78,
-        "at": "2026-09-17T21:15:44.129Z"
+        "ms": 42,
+        "at": "2026-09-17T23:57:59.385Z"
       }
     },
     "failing": []
@@ -198,13 +198,13 @@
   "pay": {
     "status": "up",
     "since": "2026-09-10T14:07:37.223Z",
-    "lastCheck": "2026-09-17T21:15:44.129Z",
+    "lastCheck": "2026-09-17T23:57:59.385Z",
     "checks": {
       "http": {
         "ok": true,
         "detail": "HTTP 200, content ok",
-        "ms": 109,
-        "at": "2026-09-17T21:15:44.129Z"
+        "ms": 34,
+        "at": "2026-09-17T23:57:59.385Z"
       }
     },
     "failing": []
@@ -212,13 +212,13 @@
   "phoenix": {
     "status": "up",
     "since": "2026-09-10T14:07:37.223Z",
-    "lastCheck": "2026-09-17T21:15:44.129Z",
+    "lastCheck": "2026-09-17T23:57:59.385Z",
     "checks": {
       "http": {
         "ok": true,
         "detail": "HTTP 200, content ok",
-        "ms": 77,
-        "at": "2026-09-17T21:15:44.129Z"
+        "ms": 55,
+        "at": "2026-09-17T23:57:59.385Z"
       }
     },
     "failing": []
@@ -226,13 +226,13 @@
   "playback": {
     "status": "up",
     "since": "2026-09-10T14:07:37.223Z",
-    "lastCheck": "2026-09-17T21:15:44.129Z",
+    "lastCheck": "2026-09-17T23:57:59.385Z",
     "checks": {
       "http": {
         "ok": true,
         "detail": "HTTP 200, content ok",
-        "ms": 77,
-        "at": "2026-09-17T21:15:44.129Z"
+        "ms": 61,
+        "at": "2026-09-17T23:57:59.385Z"
       }
     },
     "failing": []
@@ -240,13 +240,13 @@
   "printshop": {
     "status": "up",
     "since": "2026-09-11T10:25:36.698Z",
-    "lastCheck": "2026-09-17T21:15:44.129Z",
+    "lastCheck": "2026-09-17T23:57:59.385Z",
     "checks": {
       "http": {
         "ok": true,
         "detail": "HTTP 200, content ok",
-        "ms": 140,
-        "at": "2026-09-17T21:15:44.129Z"
+        "ms": 61,
+        "at": "2026-09-17T23:57:59.385Z"
       }
     },
     "failing": []
@@ -254,13 +254,13 @@
   "proof": {
     "status": "up",
     "since": "2026-09-10T14:07:37.223Z",
-    "lastCheck": "2026-09-17T21:15:44.129Z",
+    "lastCheck": "2026-09-17T23:57:59.385Z",
     "checks": {
       "http": {
         "ok": true,
         "detail": "HTTP 200, content ok",
-        "ms": 87,
-        "at": "2026-09-17T21:15:44.129Z"
+        "ms": 61,
+        "at": "2026-09-17T23:57:59.385Z"
       }
     },
     "failing": []
@@ -268,13 +268,13 @@
   "radio": {
     "status": "down",
     "since": "2026-09-17T17:58:56.114Z",
-    "lastCheck": "2026-09-17T21:15:44.129Z",
+    "lastCheck": "2026-09-17T23:57:59.385Z",
     "checks": {
       "http": {
         "ok": false,
         "detail": "fetch failed after retry: fetch failed",
-        "ms": 15237,
-        "at": "2026-09-17T21:15:44.129Z"
+        "ms": 15059,
+        "at": "2026-09-17T23:57:59.385Z"
       }
     },
     "failing": [
@@ -287,13 +287,13 @@
   "remote": {
     "status": "up",
     "since": "2026-09-11T10:25:36.698Z",
-    "lastCheck": "2026-09-17T21:15:44.129Z",
+    "lastCheck": "2026-09-17T23:57:59.385Z",
     "checks": {
       "http": {
         "ok": true,
         "detail": "HTTP 200, content ok",
-        "ms": 110,
-        "at": "2026-09-17T21:15:44.129Z"
+        "ms": 185,
+        "at": "2026-09-17T23:57:59.385Z"
       }
     },
     "failing": []
@@ -301,13 +301,13 @@
   "sampler": {
     "status": "up",
     "since": "2026-09-11T10:25:36.698Z",
-    "lastCheck": "2026-09-17T21:15:44.129Z",
+    "lastCheck": "2026-09-17T23:57:59.385Z",
     "checks": {
       "http": {
         "ok": true,
         "detail": "HTTP 200, content ok",
-        "ms": 118,
-        "at": "2026-09-17T21:15:44.129Z"
+        "ms": 47,
+        "at": "2026-09-17T23:57:59.385Z"
       }
     },
     "failing": []
@@ -315,13 +315,13 @@
   "sdm": {
     "status": "up",
     "since": "2026-09-11T10:25:36.698Z",
-    "lastCheck": "2026-09-17T21:15:44.129Z",
+    "lastCheck": "2026-09-17T23:57:59.385Z",
     "checks": {
       "http": {
         "ok": true,
         "detail": "HTTP 200, content ok",
-        "ms": 74,
-        "at": "2026-09-17T21:15:44.129Z"
+        "ms": 41,
+        "at": "2026-09-17T23:57:59.385Z"
       }
     },
     "failing": []
@@ -329,13 +329,13 @@
   "shiftwork": {
     "status": "down",
     "since": "2026-09-17T17:58:56.114Z",
-    "lastCheck": "2026-09-17T21:15:44.129Z",
+    "lastCheck": "2026-09-17T23:57:59.385Z",
     "checks": {
       "http": {
         "ok": false,
         "detail": "fetch failed after retry: fetch failed",
-        "ms": 15342,
-        "at": "2026-09-17T21:15:44.129Z"
+        "ms": 15180,
+        "at": "2026-09-17T23:57:59.385Z"
       }
     },
     "failing": [
@@ -348,13 +348,13 @@
   "tower": {
     "status": "up",
     "since": "2026-09-09T22:09:18.265Z",
-    "lastCheck": "2026-09-17T21:15:44.129Z",
+    "lastCheck": "2026-09-17T23:57:59.385Z",
     "checks": {
       "http": {
         "ok": true,
         "detail": "HTTP 200, content ok",
-        "ms": 111,
-        "at": "2026-09-17T21:15:44.129Z"
+        "ms": 102,
+        "at": "2026-09-17T23:57:59.385Z"
       }
     },
     "failing": []
@@ -362,13 +362,13 @@
   "walkthru": {
     "status": "up",
     "since": "2026-09-14T05:56:34.189Z",
-    "lastCheck": "2026-09-17T21:15:44.129Z",
+    "lastCheck": "2026-09-17T23:57:59.385Z",
     "checks": {
       "http": {
         "ok": true,
         "detail": "HTTP 200, content ok",
-        "ms": 123,
-        "at": "2026-09-17T21:15:44.129Z"
+        "ms": 30,
+        "at": "2026-09-17T23:57:59.385Z"
       }
     },
     "failing": []
@@ -376,13 +376,13 @@
   "watchtower": {
     "status": "up",
     "since": "2026-09-10T09:25:39.369Z",
-    "lastCheck": "2026-09-17T21:15:44.129Z",
+    "lastCheck": "2026-09-17T23:57:59.385Z",
     "checks": {
       "http": {
         "ok": true,
         "detail": "HTTP 200, content ok",
-        "ms": 67,
-        "at": "2026-09-17T21:15:44.129Z"
+        "ms": 40,
+        "at": "2026-09-17T23:57:59.385Z"
       }
     },
     "failing": []
@@ -390,13 +390,13 @@
   "wax": {
     "status": "up",
     "since": "2026-09-13T09:15:17.301Z",
-    "lastCheck": "2026-09-17T21:15:44.129Z",
+    "lastCheck": "2026-09-17T23:57:59.385Z",
     "checks": {
       "http": {
         "ok": true,
         "detail": "HTTP 200, content ok",
-        "ms": 76,
-        "at": "2026-09-17T21:15:44.129Z"
+        "ms": 63,
+        "at": "2026-09-17T23:57:59.385Z"
       }
     },
     "failing": []
@@ -404,13 +404,13 @@
   "yeahdogs.github.io": {
     "status": "up",
     "since": "2026-09-09T22:09:18.265Z",
-    "lastCheck": "2026-09-17T21:15:44.129Z",
+    "lastCheck": "2026-09-17T23:57:59.385Z",
     "checks": {
       "http": {
         "ok": true,
         "detail": "HTTP 200, content ok",
-        "ms": 82,
-        "at": "2026-09-17T21:15:44.129Z"
+        "ms": 51,
+        "at": "2026-09-17T23:57:59.385Z"
       }
     },
     "failing": []
