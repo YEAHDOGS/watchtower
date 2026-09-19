@@ -1,39 +1,39 @@
 # Watchtower status
 
-YEAHDOGS site monitor. Updated 2026-09-19T17:02:13.820Z.
+YEAHDOGS site monitor. Updated 2026-09-19T20:11:52.607Z.
 Source: live discovery of the YEAHDOGS org — 30 site(s) with Pages enabled right now.
 
 | Site | URL | Status | Since | Last check | Failing checks |
 |------|-----|--------|-------|------------|----------------|
-| .dog | https://yeahdogs.github.io/.dog/ | 🟢 UP | 2026-09-12T12:42:21.629Z | 2026-09-19T17:02:13.820Z | — |
-| 40 | https://yeahdogs.github.io/40/ | 🟢 UP | 2026-09-10T14:07:37.223Z | 2026-09-19T17:02:13.820Z | — |
-| bakery | https://yeahdogs.github.io/bakery/ | 🟢 UP | 2026-09-11T10:25:36.698Z | 2026-09-19T17:02:13.820Z | — |
-| castle | https://yeahdogs.github.io/castle/ | 🟢 UP | 2026-09-10T18:11:55.248Z | 2026-09-19T17:02:13.820Z | — |
-| castle-os | https://yeahdogs.github.io/castle-os/ | 🟢 UP | 2026-09-11T13:21:16.252Z | 2026-09-19T17:02:13.820Z | — |
-| chains | https://yeahdogs.github.io/chains/ | 🟢 UP | 2026-09-11T13:21:16.252Z | 2026-09-19T17:02:13.820Z | — |
-| demo | https://yeahdogs.github.io/demo/ | 🟢 UP | 2026-09-10T14:07:37.223Z | 2026-09-19T17:02:13.820Z | — |
-| firehose | https://yeahdogs.github.io/firehose/ | 🟢 UP | 2026-09-17T17:58:56.114Z | 2026-09-19T17:02:13.820Z | — |
-| forge | https://yeahdogs.github.io/forge/ | 🟢 UP | 2026-09-11T10:25:36.698Z | 2026-09-19T17:02:13.820Z | — |
-| grasshopper | https://grasshopper.dogs.red/ | 🟢 UP | 2026-09-19T17:02:13.820Z | 2026-09-19T17:02:13.820Z | — |
-| icecream | https://yeahdogs.github.io/icecream/ | 🟢 UP | 2026-09-09T19:39:36.427Z | 2026-09-19T17:02:13.820Z | — |
-| id | https://yeahdogs.github.io/id/ | 🟢 UP | 2026-09-11T10:25:36.698Z | 2026-09-19T17:02:13.820Z | — |
-| mirror | https://yeahdogs.github.io/mirror/ | 🟢 UP | 2026-09-10T14:07:37.223Z | 2026-09-19T17:02:13.820Z | — |
-| news | https://yeahdogs.github.io/news/ | 🟢 UP | 2026-09-10T14:07:37.223Z | 2026-09-19T17:02:13.820Z | — |
-| paper | https://yeahdogs.github.io/paper/ | 🟢 UP | 2026-09-13T09:15:17.301Z | 2026-09-19T17:02:13.820Z | — |
-| pay | https://yeahdogs.github.io/pay/ | 🟢 UP | 2026-09-10T14:07:37.223Z | 2026-09-19T17:02:13.820Z | — |
-| phoenix | https://yeahdogs.github.io/phoenix/ | 🟢 UP | 2026-09-10T14:07:37.223Z | 2026-09-19T17:02:13.820Z | — |
-| playback | https://yeahdogs.github.io/playback/ | 🟢 UP | 2026-09-10T14:07:37.223Z | 2026-09-19T17:02:13.820Z | — |
-| printshop | https://yeahdogs.github.io/printshop/ | 🟢 UP | 2026-09-11T10:25:36.698Z | 2026-09-19T17:02:13.820Z | — |
-| proof | https://yeahdogs.github.io/proof/ | 🟢 UP | 2026-09-10T14:07:37.223Z | 2026-09-19T17:02:13.820Z | — |
-| radio | https://radio.dogs.red/ | 🟢 UP | 2026-09-18T09:26:38.166Z | 2026-09-19T17:02:13.820Z | — |
-| remote | https://yeahdogs.github.io/remote/ | 🟢 UP | 2026-09-11T10:25:36.698Z | 2026-09-19T17:02:13.820Z | — |
-| sampler | https://yeahdogs.github.io/sampler/ | 🟢 UP | 2026-09-11T10:25:36.698Z | 2026-09-19T17:02:13.820Z | — |
-| sdm | https://yeahdogs.github.io/sdm/ | 🟢 UP | 2026-09-11T10:25:36.698Z | 2026-09-19T17:02:13.820Z | — |
-| shiftwork | https://shiftwork.dogs.red/ | 🟢 UP | 2026-09-18T04:28:31.005Z | 2026-09-19T17:02:13.820Z | — |
-| tower | https://yeahdogs.github.io/tower/ | 🟢 UP | 2026-09-09T22:09:18.265Z | 2026-09-19T17:02:13.820Z | — |
-| walkthru | https://yeahdogs.github.io/walkthru/ | 🟢 UP | 2026-09-14T05:56:34.189Z | 2026-09-19T17:02:13.820Z | — |
-| watchtower | https://yeahdogs.github.io/watchtower/ | 🟢 UP | 2026-09-10T09:25:39.369Z | 2026-09-19T17:02:13.820Z | — |
-| wax | https://yeahdogs.github.io/wax/ | 🟢 UP | 2026-09-13T09:15:17.301Z | 2026-09-19T17:02:13.820Z | — |
-| yeahdogs.github.io | https://yeahdogs.github.io/ | 🟢 UP | 2026-09-09T22:09:18.265Z | 2026-09-19T17:02:13.820Z | — |
+| .dog | https://yeahdogs.github.io/.dog/ | 🟢 UP | 2026-09-12T12:42:21.629Z | 2026-09-19T20:11:52.607Z | — |
+| 40 | https://yeahdogs.github.io/40/ | 🟢 UP | 2026-09-10T14:07:37.223Z | 2026-09-19T20:11:52.607Z | — |
+| bakery | https://yeahdogs.github.io/bakery/ | 🟢 UP | 2026-09-11T10:25:36.698Z | 2026-09-19T20:11:52.607Z | — |
+| castle | https://yeahdogs.github.io/castle/ | 🟢 UP | 2026-09-10T18:11:55.248Z | 2026-09-19T20:11:52.607Z | — |
+| castle-os | https://yeahdogs.github.io/castle-os/ | 🟢 UP | 2026-09-11T13:21:16.252Z | 2026-09-19T20:11:52.607Z | — |
+| chains | https://yeahdogs.github.io/chains/ | 🟢 UP | 2026-09-11T13:21:16.252Z | 2026-09-19T20:11:52.607Z | — |
+| demo | https://yeahdogs.github.io/demo/ | 🟢 UP | 2026-09-10T14:07:37.223Z | 2026-09-19T20:11:52.607Z | — |
+| firehose | https://yeahdogs.github.io/firehose/ | 🟢 UP | 2026-09-17T17:58:56.114Z | 2026-09-19T20:11:52.607Z | — |
+| forge | https://yeahdogs.github.io/forge/ | 🟢 UP | 2026-09-11T10:25:36.698Z | 2026-09-19T20:11:52.607Z | — |
+| grasshopper | https://grasshopper.dogs.red/ | 🟢 UP | 2026-09-19T17:02:13.820Z | 2026-09-19T20:11:52.607Z | — |
+| icecream | https://yeahdogs.github.io/icecream/ | 🟢 UP | 2026-09-09T19:39:36.427Z | 2026-09-19T20:11:52.607Z | — |
+| id | https://yeahdogs.github.io/id/ | 🟢 UP | 2026-09-11T10:25:36.698Z | 2026-09-19T20:11:52.607Z | — |
+| mirror | https://yeahdogs.github.io/mirror/ | 🟢 UP | 2026-09-10T14:07:37.223Z | 2026-09-19T20:11:52.607Z | — |
+| news | https://yeahdogs.github.io/news/ | 🟢 UP | 2026-09-10T14:07:37.223Z | 2026-09-19T20:11:52.607Z | — |
+| paper | https://yeahdogs.github.io/paper/ | 🟢 UP | 2026-09-13T09:15:17.301Z | 2026-09-19T20:11:52.607Z | — |
+| pay | https://yeahdogs.github.io/pay/ | 🟢 UP | 2026-09-10T14:07:37.223Z | 2026-09-19T20:11:52.607Z | — |
+| phoenix | https://yeahdogs.github.io/phoenix/ | 🟢 UP | 2026-09-10T14:07:37.223Z | 2026-09-19T20:11:52.607Z | — |
+| playback | https://yeahdogs.github.io/playback/ | 🟢 UP | 2026-09-10T14:07:37.223Z | 2026-09-19T20:11:52.607Z | — |
+| printshop | https://yeahdogs.github.io/printshop/ | 🟢 UP | 2026-09-11T10:25:36.698Z | 2026-09-19T20:11:52.607Z | — |
+| proof | https://yeahdogs.github.io/proof/ | 🟢 UP | 2026-09-10T14:07:37.223Z | 2026-09-19T20:11:52.607Z | — |
+| radio | https://radio.dogs.red/ | 🟢 UP | 2026-09-18T09:26:38.166Z | 2026-09-19T20:11:52.607Z | — |
+| remote | https://yeahdogs.github.io/remote/ | 🟢 UP | 2026-09-11T10:25:36.698Z | 2026-09-19T20:11:52.607Z | — |
+| sampler | https://yeahdogs.github.io/sampler/ | 🟢 UP | 2026-09-11T10:25:36.698Z | 2026-09-19T20:11:52.607Z | — |
+| sdm | https://yeahdogs.github.io/sdm/ | 🟢 UP | 2026-09-11T10:25:36.698Z | 2026-09-19T20:11:52.607Z | — |
+| shiftwork | https://shiftwork.dogs.red/ | 🟢 UP | 2026-09-18T04:28:31.005Z | 2026-09-19T20:11:52.607Z | — |
+| tower | https://yeahdogs.github.io/tower/ | 🟢 UP | 2026-09-09T22:09:18.265Z | 2026-09-19T20:11:52.607Z | — |
+| walkthru | https://yeahdogs.github.io/walkthru/ | 🟢 UP | 2026-09-14T05:56:34.189Z | 2026-09-19T20:11:52.607Z | — |
+| watchtower | https://yeahdogs.github.io/watchtower/ | 🟢 UP | 2026-09-10T09:25:39.369Z | 2026-09-19T20:11:52.607Z | — |
+| wax | https://yeahdogs.github.io/wax/ | 🟢 UP | 2026-09-13T09:15:17.301Z | 2026-09-19T20:11:52.607Z | — |
+| yeahdogs.github.io | https://yeahdogs.github.io/ | 🟢 UP | 2026-09-09T22:09:18.265Z | 2026-09-19T20:11:52.607Z | — |
 
 Alerts: a GitHub issue opens only when a site goes from UP to DOWN, and auto-closes on recovery. No per-run emails, no repeat alerts while a site stays down.
