@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-27T13:36:53.850Z",
+  "generatedAt": "2026-09-27T18:05:44.693Z",
   "sites": [
     {
       "name": ".dog",
@@ -7,8 +7,8 @@
       "repo": ".dog",
       "status": "up",
       "since": "2026-09-12T12:42:21.629Z",
-      "lastCheck": "2026-09-27T13:36:53.850Z",
-      "responseMs": 72,
+      "lastCheck": "2026-09-27T18:05:44.693Z",
+      "responseMs": 161,
       "failing": []
     },
     {
@@ -17,8 +17,8 @@
       "repo": "40",
       "status": "up",
       "since": "2026-09-10T14:07:37.223Z",
-      "lastCheck": "2026-09-27T13:36:53.850Z",
-      "responseMs": 38,
+      "lastCheck": "2026-09-27T18:05:44.693Z",
+      "responseMs": 87,
       "failing": []
     },
     {
@@ -27,8 +27,8 @@
       "repo": "bakery",
       "status": "up",
       "since": "2026-09-11T10:25:36.698Z",
-      "lastCheck": "2026-09-27T13:36:53.850Z",
-      "responseMs": 40,
+      "lastCheck": "2026-09-27T18:05:44.693Z",
+      "responseMs": 86,
       "failing": []
     },
     {
@@ -37,8 +37,8 @@
       "repo": "calculator",
       "status": "up",
       "since": "2026-09-23T05:36:00.564Z",
-      "lastCheck": "2026-09-27T13:36:53.850Z",
-      "responseMs": 38,
+      "lastCheck": "2026-09-27T18:05:44.693Z",
+      "responseMs": 84,
       "failing": []
     },
     {
@@ -47,8 +47,8 @@
       "repo": "castle",
       "status": "up",
       "since": "2026-09-10T18:11:55.248Z",
-      "lastCheck": "2026-09-27T13:36:53.850Z",
-      "responseMs": 56,
+      "lastCheck": "2026-09-27T18:05:44.693Z",
+      "responseMs": 198,
       "failing": []
     },
     {
@@ -57,8 +57,8 @@
       "repo": "castle-os",
       "status": "up",
       "since": "2026-09-11T13:21:16.252Z",
-      "lastCheck": "2026-09-27T13:36:53.850Z",
-      "responseMs": 46,
+      "lastCheck": "2026-09-27T18:05:44.693Z",
+      "responseMs": 177,
       "failing": []
     },
     {
@@ -67,19 +67,21 @@
       "repo": "chains",
       "status": "up",
       "since": "2026-09-11T13:21:16.252Z",
-      "lastCheck": "2026-09-27T13:36:53.850Z",
-      "responseMs": 56,
+      "lastCheck": "2026-09-27T18:05:44.693Z",
+      "responseMs": 207,
       "failing": []
     },
     {
       "name": "cups",
       "url": "https://cups.dogs.red/",
       "repo": "cups",
-      "status": "up",
-      "since": "2026-09-20T21:14:27.671Z",
-      "lastCheck": "2026-09-27T13:36:53.850Z",
-      "responseMs": 134,
-      "failing": []
+      "status": "down",
+      "since": "2026-09-27T18:05:44.693Z",
+      "lastCheck": "2026-09-27T18:05:44.693Z",
+      "responseMs": 15300,
+      "failing": [
+        "http: fetch failed after retry: fetch failed"
+      ]
     },
     {
       "name": "demo",
@@ -87,8 +89,8 @@
       "repo": "demo",
       "status": "up",
       "since": "2026-09-10T14:07:37.223Z",
-      "lastCheck": "2026-09-27T13:36:53.850Z",
-      "responseMs": 38,
+      "lastCheck": "2026-09-27T18:05:44.693Z",
+      "responseMs": 139,
       "failing": []
     },
     {
@@ -97,8 +99,8 @@
       "repo": "firehose",
       "status": "up",
       "since": "2026-09-17T17:58:56.114Z",
-      "lastCheck": "2026-09-27T13:36:53.850Z",
-      "responseMs": 41,
+      "lastCheck": "2026-09-27T18:05:44.693Z",
+      "responseMs": 85,
       "failing": []
     },
     {
@@ -107,19 +109,21 @@
       "repo": "forge",
       "status": "up",
       "since": "2026-09-11T10:25:36.698Z",
-      "lastCheck": "2026-09-27T13:36:53.850Z",
-      "responseMs": 55,
+      "lastCheck": "2026-09-27T18:05:44.693Z",
+      "responseMs": 101,
       "failing": []
     },
     {
       "name": "grasshopper",
       "url": "https://grasshopper.dogs.red/",
       "repo": "grasshopper",
-      "status": "up",
-      "since": "2026-09-19T17:02:13.820Z",
-      "lastCheck": "2026-09-27T13:36:53.850Z",
-      "responseMs": 138,
-      "failing": []
+      "status": "down",
+      "since": "2026-09-27T18:05:44.693Z",
+      "lastCheck": "2026-09-27T18:05:44.693Z",
+      "responseMs": 15194,
+      "failing": [
+        "http: fetch failed after retry: fetch failed"
+      ]
     },
     {
       "name": "icecream",
@@ -127,8 +131,8 @@
       "repo": "icecream",
       "status": "up",
       "since": "2026-09-09T19:39:36.427Z",
-      "lastCheck": "2026-09-27T13:36:53.850Z",
-      "responseMs": 36,
+      "lastCheck": "2026-09-27T18:05:44.693Z",
+      "responseMs": 136,
       "failing": []
     },
     {
@@ -137,8 +141,8 @@
       "repo": "id",
       "status": "up",
       "since": "2026-09-11T10:25:36.698Z",
-      "lastCheck": "2026-09-27T13:36:53.850Z",
-      "responseMs": 42,
+      "lastCheck": "2026-09-27T18:05:44.693Z",
+      "responseMs": 101,
       "failing": []
     },
     {
@@ -147,8 +151,8 @@
       "repo": "mirror",
       "status": "up",
       "since": "2026-09-10T14:07:37.223Z",
-      "lastCheck": "2026-09-27T13:36:53.850Z",
-      "responseMs": 63,
+      "lastCheck": "2026-09-27T18:05:44.693Z",
+      "responseMs": 102,
       "failing": []
     },
     {
@@ -157,8 +161,8 @@
       "repo": "news",
       "status": "up",
       "since": "2026-09-10T14:07:37.223Z",
-      "lastCheck": "2026-09-27T13:36:53.850Z",
-      "responseMs": 54,
+      "lastCheck": "2026-09-27T18:05:44.693Z",
+      "responseMs": 101,
       "failing": []
     },
     {
@@ -167,8 +171,8 @@
       "repo": "paper",
       "status": "up",
       "since": "2026-09-13T09:15:17.301Z",
-      "lastCheck": "2026-09-27T13:36:53.850Z",
-      "responseMs": 37,
+      "lastCheck": "2026-09-27T18:05:44.693Z",
+      "responseMs": 92,
       "failing": []
     },
     {
@@ -177,8 +181,8 @@
       "repo": "pay",
       "status": "up",
       "since": "2026-09-10T14:07:37.223Z",
-      "lastCheck": "2026-09-27T13:36:53.850Z",
-      "responseMs": 40,
+      "lastCheck": "2026-09-27T18:05:44.693Z",
+      "responseMs": 100,
       "failing": []
     },
     {
@@ -187,8 +191,8 @@
       "repo": "phoenix",
       "status": "up",
       "since": "2026-09-10T14:07:37.223Z",
-      "lastCheck": "2026-09-27T13:36:53.850Z",
-      "responseMs": 43,
+      "lastCheck": "2026-09-27T18:05:44.693Z",
+      "responseMs": 115,
       "failing": []
     },
     {
@@ -197,8 +201,8 @@
       "repo": "playback",
       "status": "up",
       "since": "2026-09-10T14:07:37.223Z",
-      "lastCheck": "2026-09-27T13:36:53.850Z",
-      "responseMs": 60,
+      "lastCheck": "2026-09-27T18:05:44.693Z",
+      "responseMs": 95,
       "failing": []
     },
     {
@@ -207,8 +211,8 @@
       "repo": "printer",
       "status": "up",
       "since": "2026-09-21T20:50:48.923Z",
-      "lastCheck": "2026-09-27T13:36:53.850Z",
-      "responseMs": 46,
+      "lastCheck": "2026-09-27T18:05:44.693Z",
+      "responseMs": 100,
       "failing": []
     },
     {
@@ -217,8 +221,8 @@
       "repo": "printshop",
       "status": "up",
       "since": "2026-09-11T10:25:36.698Z",
-      "lastCheck": "2026-09-27T13:36:53.850Z",
-      "responseMs": 67,
+      "lastCheck": "2026-09-27T18:05:44.693Z",
+      "responseMs": 87,
       "failing": []
     },
     {
@@ -227,19 +231,21 @@
       "repo": "proof",
       "status": "up",
       "since": "2026-09-10T14:07:37.223Z",
-      "lastCheck": "2026-09-27T13:36:53.850Z",
-      "responseMs": 37,
+      "lastCheck": "2026-09-27T18:05:44.693Z",
+      "responseMs": 202,
       "failing": []
     },
     {
       "name": "radio",
       "url": "https://radio.dogs.red/",
       "repo": "radio",
-      "status": "up",
-      "since": "2026-09-18T09:26:38.166Z",
-      "lastCheck": "2026-09-27T13:36:53.850Z",
-      "responseMs": 408,
-      "failing": []
+      "status": "down",
+      "since": "2026-09-27T18:05:44.693Z",
+      "lastCheck": "2026-09-27T18:05:44.693Z",
+      "responseMs": 15398,
+      "failing": [
+        "http: fetch failed after retry: fetch failed"
+      ]
     },
     {
       "name": "remote",
@@ -247,8 +253,8 @@
       "repo": "remote",
       "status": "up",
       "since": "2026-09-11T10:25:36.698Z",
-      "lastCheck": "2026-09-27T13:36:53.850Z",
-      "responseMs": 50,
+      "lastCheck": "2026-09-27T18:05:44.693Z",
+      "responseMs": 126,
       "failing": []
     },
     {
@@ -257,8 +263,8 @@
       "repo": "sampler",
       "status": "up",
       "since": "2026-09-11T10:25:36.698Z",
-      "lastCheck": "2026-09-27T13:36:53.850Z",
-      "responseMs": 45,
+      "lastCheck": "2026-09-27T18:05:44.693Z",
+      "responseMs": 175,
       "failing": []
     },
     {
@@ -267,8 +273,8 @@
       "repo": "scrub",
       "status": "up",
       "since": "2026-09-25T07:16:31.654Z",
-      "lastCheck": "2026-09-27T13:36:53.850Z",
-      "responseMs": 36,
+      "lastCheck": "2026-09-27T18:05:44.693Z",
+      "responseMs": 94,
       "failing": []
     },
     {
@@ -277,19 +283,21 @@
       "repo": "sdm",
       "status": "up",
       "since": "2026-09-11T10:25:36.698Z",
-      "lastCheck": "2026-09-27T13:36:53.850Z",
-      "responseMs": 38,
+      "lastCheck": "2026-09-27T18:05:44.693Z",
+      "responseMs": 135,
       "failing": []
     },
     {
       "name": "shiftwork",
       "url": "https://shiftwork.dogs.red/",
       "repo": "shiftwork",
-      "status": "up",
-      "since": "2026-09-18T04:28:31.005Z",
-      "lastCheck": "2026-09-27T13:36:53.850Z",
-      "responseMs": 166,
-      "failing": []
+      "status": "down",
+      "since": "2026-09-27T18:05:44.693Z",
+      "lastCheck": "2026-09-27T18:05:44.693Z",
+      "responseMs": 15190,
+      "failing": [
+        "http: fetch failed after retry: fetch failed"
+      ]
     },
     {
       "name": "toolbox",
@@ -297,8 +305,8 @@
       "repo": "toolbox",
       "status": "down",
       "since": "2026-09-22T21:50:55.035Z",
-      "lastCheck": "2026-09-27T13:36:53.850Z",
-      "responseMs": 15176,
+      "lastCheck": "2026-09-27T18:05:44.693Z",
+      "responseMs": 15096,
       "failing": [
         "http: fetch failed after retry: fetch failed"
       ]
@@ -309,8 +317,8 @@
       "repo": "tower",
       "status": "up",
       "since": "2026-09-09T22:09:18.265Z",
-      "lastCheck": "2026-09-27T13:36:53.850Z",
-      "responseMs": 89,
+      "lastCheck": "2026-09-27T18:05:44.693Z",
+      "responseMs": 145,
       "failing": []
     },
     {
@@ -319,8 +327,8 @@
       "repo": "tv",
       "status": "up",
       "since": "2026-09-21T20:50:48.923Z",
-      "lastCheck": "2026-09-27T13:36:53.850Z",
-      "responseMs": 47,
+      "lastCheck": "2026-09-27T18:05:44.693Z",
+      "responseMs": 91,
       "failing": []
     },
     {
@@ -329,8 +337,8 @@
       "repo": "walkthru",
       "status": "up",
       "since": "2026-09-14T05:56:34.189Z",
-      "lastCheck": "2026-09-27T13:36:53.850Z",
-      "responseMs": 33,
+      "lastCheck": "2026-09-27T18:05:44.693Z",
+      "responseMs": 97,
       "failing": []
     },
     {
@@ -339,8 +347,8 @@
       "repo": "watchtower",
       "status": "up",
       "since": "2026-09-10T09:25:39.369Z",
-      "lastCheck": "2026-09-27T13:36:53.850Z",
-      "responseMs": 35,
+      "lastCheck": "2026-09-27T18:05:44.693Z",
+      "responseMs": 99,
       "failing": []
     },
     {
@@ -349,8 +357,8 @@
       "repo": "wax",
       "status": "up",
       "since": "2026-09-13T09:15:17.301Z",
-      "lastCheck": "2026-09-27T13:36:53.850Z",
-      "responseMs": 50,
+      "lastCheck": "2026-09-27T18:05:44.693Z",
+      "responseMs": 101,
       "failing": []
     },
     {
@@ -359,8 +367,8 @@
       "repo": "yeahdogs.github.io",
       "status": "up",
       "since": "2026-09-09T22:09:18.265Z",
-      "lastCheck": "2026-09-27T13:36:53.850Z",
-      "responseMs": 45,
+      "lastCheck": "2026-09-27T18:05:44.693Z",
+      "responseMs": 89,
       "failing": []
     }
   ]
