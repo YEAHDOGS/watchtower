@@ -11,9 +11,8 @@ const API = "https://api.github.com";
 // Default content check for auto-discovered sites with no override: proves the
 // URL actually serves an HTML page (not a 404 body, not an empty reply).
 export const DEFAULT_EXPECT_CONTENT = "<html";
-export const DEFAULT_E2E_SELECTOR = "body";
 
-const OVERRIDE_KEYS = ["name", "expect_status", "expect_content", "e2e_selector", "skip"];
+const OVERRIDE_KEYS = ["name", "expect_status", "expect_content", "skip"];
 
 function coerce(raw) {
   const t = raw.trim().replace(/^"(.*)"$/, "$1").replace(/^'(.*)'$/, "$1");
@@ -114,7 +113,6 @@ export function mergeInventory(discovered, overrides) {
       customDomain: d.customDomain,
       expect_status: o.expect_status ?? 200,
       expect_content: o.expect_content ?? DEFAULT_EXPECT_CONTENT,
-      e2e_selector: o.e2e_selector ?? DEFAULT_E2E_SELECTOR,
     });
   }
   return sites;

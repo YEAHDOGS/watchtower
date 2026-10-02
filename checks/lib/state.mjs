@@ -5,7 +5,7 @@
 import { readFileSync, writeFileSync, existsSync } from "node:fs";
 import { join } from "node:path";
 
-export const CHECK_TYPES = ["http", "e2e"];
+export const CHECK_TYPES = ["http"];
 
 export function loadState(rootDir) {
   const p = join(rootDir, "state.json");
@@ -17,7 +17,7 @@ export function saveState(rootDir, state) {
   writeFileSync(join(rootDir, "state.json"), JSON.stringify(state, null, 2) + "\n");
 }
 
-// results: { [siteName]: { http?: {ok, detail}, e2e?: {ok, detail} } }
+// results: { [siteName]: { http?: {ok, detail} } }
 // A check type absent from results keeps its previous slot (checks run on
 // different schedules; never fail a site for a check that didn't run).
 export function computeTransitions(sites, prevState, results, nowIso) {

@@ -42,14 +42,14 @@ test("down->up fires a recovered event", () => {
 
 test("a check that did not run keeps its previous slot", () => {
   const prev = {
-    paper: { status: "down", since: T0, lastCheck: T0, checks: { http: { ...up(), at: T0 }, e2e: { ...down("old"), at: T0 } }, failing: [{ type: "e2e", detail: "old" }] },
+    paper: { status: "down", since: T0, lastCheck: T0, checks: { http: { ...down("old"), at: T0 } }, failing: [{ type: "http", detail: "old" }] },
   };
-  // http-only run: e2e slot preserved, site stays down, no new event
-  const { nextState, events } = computeTransitions(sites, prev, { paper: { http: up() } }, T1);
+  // run with no results for paper: http slot preserved, site stays down, no new event
+  const { nextState, events } = computeTransitions(sites, prev, {}, T1);
   assert.equal(nextState.paper.status, "down");
   assert.equal(events.length, 0);
-  // e2e recovers -> site recovers
-  const r2 = computeTransitions(sites, nextState, { paper: { e2e: up() } }, T1);
+  // http recovers -> site recovers
+  const r2 = computeTransitions(sites, nextState, { paper: { http: up() } }, T1);
   assert.equal(r2.nextState.paper.status, "up");
   assert.equal(r2.events[0].type, "recovered");
 });
